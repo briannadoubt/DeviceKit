@@ -46,7 +46,7 @@ import UIKit
 ///         showError()
 ///     }
 ///
-public enum Device {
+public enum Device: Codable {
   #if os(iOS)
     /// Device is an [iPod touch (5th generation)](https://support.apple.com/kb/SP657)
     ///
